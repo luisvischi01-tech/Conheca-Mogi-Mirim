@@ -41,6 +41,7 @@
         <a href="#indicadores">Indicadores</a>
         <a href="#localizacao">Localização</a>
         <a href="#industria">Indústria</a>
+        <a href="#educacao">Educação</a>
         <a href="#servicos">Serviços</a>
         <a href="#contato" class="nav-button">Fale conosco</a>
       </nav>
@@ -77,19 +78,54 @@
           </div>
         </div>
 
-        <div class="hero-stat-card">
-          <div class="hero-stat-card-header">
-            <span>Ranking de Competitividade dos Municípios Brasileiros</span>
+        <div class="hero-side">
+          <div class="hero-map-card">
+            <span class="hero-map-label">Extensão territorial</span>
+
+            <svg class="territory-map" viewBox="0 0 400 460" role="img" aria-labelledby="territory-title territory-desc">
+              <title id="territory-title">Mapa esquemático do território de Mogi Mirim</title>
+              <desc id="territory-desc">Contorno estilizado do município de Mogi Mirim, com as rodovias SP-191, SP-340 e SP-147 e o centro da cidade indicados.</desc>
+
+              <path class="territory-shape" d="M180,18 C215,14 252,26 268,55 C282,80 305,92 328,118 C348,141 342,168 318,180 C300,189 292,206 302,224 C317,246 332,262 322,288 C309,312 276,320 264,344 C253,367 268,388 252,408 C233,430 196,428 180,408 C165,426 134,430 118,410 C99,415 74,401 68,377 C57,357 72,336 61,317 C45,297 32,276 44,252 C28,232 26,201 47,182 C36,157 52,131 78,122 C71,97 92,72 118,63 C127,38 155,22 180,18 Z" />
+
+              <g class="territory-road" transform="translate(78,210)">
+                <rect x="-38" y="-14" width="76" height="26" rx="7" />
+                <text y="4">SP-191</text>
+              </g>
+
+              <g class="territory-road" transform="translate(226,150)">
+                <rect x="-38" y="-14" width="76" height="26" rx="7" />
+                <text y="4">SP-340</text>
+              </g>
+
+              <g class="territory-road" transform="translate(292,258)">
+                <rect x="-38" y="-14" width="76" height="26" rx="7" />
+                <text y="4">SP-147</text>
+              </g>
+
+              <g class="territory-center" transform="translate(200,240)">
+                <circle r="6" />
+                <text y="-14">Mogi Mirim</text>
+              </g>
+            </svg>
+
+            <span class="hero-map-note">497,7 km² de área territorial (IBGE)</span>
           </div>
 
-          <div class="hero-stat-main">
-            <strong>54ª</strong>
-            <span>posição geral no Brasil</span>
-          </div>
+          <div class="hero-stat-card">
+            <div class="hero-stat-card-header">
+              <span>Ranking de Competitividade dos Municípios Brasileiros</span>
+            </div>
 
-          <div class="hero-stat-sub">
-            <strong>12ª</strong>
-            <span>posição na categoria inserção econômica</span>
+            <div class="hero-stat-main">
+              <strong>54ª</strong>
+              <span>posição geral no Brasil</span>
+            </div>
+
+            <div class="hero-stat-sub">
+              <strong>12ª</strong>
+              <span>posição na categoria inserção econômica</span>
+            </div>
           </div>
         </div>
       </div>
@@ -526,6 +562,73 @@
           <li>Benefícios fiscais para empresas que se instalam no município.</li>
           <li>Apoio à qualificação da mão de obra conforme a necessidade da empresa, com cursos, captação de novas instituições de ensino e divulgação das oportunidades.</li>
         </ul>
+      </div>
+    </section>
+
+    <section id="educacao" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Educação e qualificação</span>
+          <h2>Ensino técnico e superior público formando mão de obra qualificada.</h2>
+          <p>
+            Mogi Mirim conta com instituições públicas e gratuitas de ensino técnico
+            e superior, além de escolas estaduais e municipais de ensino médio, que
+            ajudam a preparar profissionais para as demandas das empresas da região.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card featured">
+            <span class="service-tag" data-tone="green">Ensino superior</span>
+            <h3>Fatec Mogi Mirim — Arthur de Azevedo</h3>
+            <p>
+              Faculdade de Tecnologia pública e gratuita, com cursos voltados
+              diretamente às demandas da indústria local.
+            </p>
+
+            <ul>
+              <li>Análise e Desenvolvimento de Sistemas;</li>
+              <li>Projetos Mecânicos;</li>
+              <li>Mecânica de Precisão;</li>
+              <li>Mecânica Industrial;</li>
+              <li>Gestão Empresarial (EAD).</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <span class="service-tag" data-tone="yellow">Ensino técnico</span>
+            <h3>Etec Pedro Ferreira Alves</h3>
+            <p>
+              Escola técnica estadual gratuita, em atividade desde 1964, vinculada
+              ao Centro Paula Souza.
+            </p>
+
+            <ul>
+              <li>Administração e Contabilidade;</li>
+              <li>Automação Industrial e Mecatrônica;</li>
+              <li>Informática e Informática para Internet;</li>
+              <li>Logística e Mecânica;</li>
+              <li>Enfermagem e Meio Ambiente.</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <span class="service-tag" data-tone="red">Formação integrada</span>
+            <h3>Etec + Fatec: Ensino Médio, Técnico e Superior</h3>
+            <p>
+              Etec e Fatec também oferecem cursos de Articulação da Formação
+              Profissional Média e Superior (AMS), em que o estudante conclui
+              Ensino Médio, Técnico e Superior em um único processo seletivo.
+            </p>
+
+            <ul>
+              <li>Processo seletivo único (Vestibulinho Etec);</li>
+              <li>Formação em cinco anos, gratuita;</li>
+              <li>Vaga garantida no curso superior da Fatec;</li>
+              <li>Voltada às demandas da indústria 4.0.</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 

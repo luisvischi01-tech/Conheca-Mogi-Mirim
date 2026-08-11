@@ -351,6 +351,80 @@ h3 {
   width: 100%;
 }
 
+.hero-side {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 20px;
+}
+
+.hero-map-card {
+  padding: 24px 26px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+  text-align: center;
+}
+
+.hero-map-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--green-dark);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.territory-map {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  margin: 6px auto 4px;
+  display: block;
+}
+
+.territory-shape {
+  fill: rgba(18, 145, 56, 0.14);
+  stroke: var(--green);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+
+.territory-road rect {
+  fill: var(--white);
+  stroke: var(--ink);
+  stroke-width: 1.2;
+}
+
+.territory-road text {
+  fill: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  text-anchor: middle;
+}
+
+.territory-center circle {
+  fill: var(--red);
+}
+
+.territory-center text {
+  fill: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 800;
+  text-anchor: middle;
+}
+
+.hero-map-note {
+  display: block;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
 .hero-stat-card {
   position: relative;
   z-index: 1;
